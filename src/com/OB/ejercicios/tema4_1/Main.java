@@ -64,20 +64,11 @@ public class Main {
         System.out.println("Switch");
 
         switch (estacion) {
-            case "invierno":
-                System.out.println("Es invierno");
-                break;
-            case "primavera":
-                System.out.println("Es primavera");
-                break;
-            case "verano":
-                System.out.println("Es verano");
-                break;
-            case "otoño":
-                System.out.println("Es otoño");
-                break;
-            default:
-                System.out.println("No has especificado ninguna estación");
+            case "invierno" -> System.out.println("Es invierno");
+            case "primavera" -> System.out.println("Es primavera");
+            case "verano" -> System.out.println("Es verano");
+            case "otoño" -> System.out.println("Es otoño");
+            default -> System.out.println("No has especificado ninguna estación");
         }
     }
 }
